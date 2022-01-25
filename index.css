@@ -4,9 +4,13 @@ body {
 }
 
 .Navbar {
-    justify-content: center;
     display: flex;
     flex-direction: row;
+    font-size: 32px;
+    justify-content: space-between;
+    width: 45vw;
+    margin: auto;
+    margin-top: 37px;
 }
 
 a {
@@ -18,3 +22,17 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+.centre {
+    display: flex;
+    flex-direction: row;
+}
+
+.content h1 {
+    font-size: 70px;
+}
+
+.content p {
+    font-size: 37px;
+}
+
