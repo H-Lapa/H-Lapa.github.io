@@ -22,6 +22,11 @@ a {
     display: flex;
     flex-direction: column;
     margin-left: auto;
+    justify-content: space-between;
+    height: 45vh;
+    margin-right: 2em;
+    margin-top: 9em;
+
 }
 
 .centre {
