@@ -1,10 +1,35 @@
+body {
+    background-color: #035A6D;
+    color: white;
+}
 .project {
-    width: 50%;
+    width: 80%;
+    margin: auto; margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
     margin: auto;
 }
 
+.divider {
+    width: 175px;
+}
+
 .square {
-    height: 50px;
-    width: 50px;
-    background-color: #555;
+    height: 350px;
+    width: 65em;
+    background-color: #ABE7E8;
+}
+
+
+hr {
+    width: 80%;
+    height: 1px;
+    background-color: white;
+    border: none;
+    margin-top: 5em;
 }
