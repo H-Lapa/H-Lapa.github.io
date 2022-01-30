@@ -16,6 +16,10 @@ body {
 a {
     text-decoration: none;
     color: white;
+
+    text-transform: uppercase;
+    padding: 20px 0px;
+    position: relative;
 }
 
 .socials {
@@ -51,3 +55,18 @@ a {
     color: #ABE7E8;
 }
 
+a::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #ABE7E8;
+    width: 100%;
+    bottom: 5px;
+    opacity: 0;
+}
+
+a:hover::before {
+    bottom: 10px;
+    opacity: 1;
+}
