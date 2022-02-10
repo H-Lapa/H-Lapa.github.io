@@ -14,4 +14,8 @@ app.get("/", (req, res) => {
     res.render('index')
 })
 
+const projectsRouter = require('./routes/projects')
+
+app.use('/projects', projectsRouter)
+
 app.listen(3000)
