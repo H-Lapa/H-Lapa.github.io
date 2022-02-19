@@ -6,7 +6,13 @@ router.use('/css', express.static(__dirname + 'public/css'))
 
 
 router.get("/", (req, res) => {
-    res.render('project-template')
+    const articles = [{
+        title: 'Test Article',
+        createdAt: Date.now(),
+        description: 'Test description',
+        technologies: 'all the tech'
+    }]
+    res.render('project-template', {articles: articles})
 })
 
 router.get("/new", (req, res) => {
