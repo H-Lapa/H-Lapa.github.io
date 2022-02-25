@@ -5,6 +5,7 @@ router.use(express.static('public'))
 router.use('/css', express.static(__dirname + 'public/css'))
 
 
+
 router.get("/", (req, res) => {
     const articles = [{
         title: 'Test Article',
